@@ -1,0 +1,41 @@
+html, body{
+	height: 100%;
+}
+
+img{
+	max-width: 100%;
+}
+
+header{
+	background: url('../img/bksc-header-1.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	margin: 0 0 50px 0;
+}
+
+header img{
+	float: right;
+	max-width: 320px;
+	margin: 30% 0 0 0;
+}
+
+
+
+footer{
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
+
+.breaker{
+	background-repeat:  no-repeat;
+	background-position: center center;
+	background-attachment: fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 300px;
+}
