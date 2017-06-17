@@ -2,31 +2,33 @@ html, body{
 	height: 100%;
 }
 
-img{
-	max-width: 100%;
-}
-
 header{
 	background: url('../img/bksc-header-1.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-attachment: fixed; 
 	height: 100%;
-	margin: 0 0 50px 0;
+	margin: 0; padding: 0;
 }
-
-header img{
-	float: right;
-	max-width: 320px;
-	margin: 30% 0 0 0;
-}
-
 
 
 footer{
 	text-align: center;
 	padding: 100px 0 100px 0;
+}
+
+
+
+.container{
+	text-align:center;
+}
+
+.fluid{
+	width: auto;
+	height: auto;
+	max-width: 100%;
 }
 
 .breaker{
@@ -37,5 +39,68 @@ footer{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 300px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.logo{
+	float: right;
+	max-width: 320px;
+	margin: 15% 0 0 0;
+}
+
+a.arrow-down{
+	display: block;
+	position: absolute;
+	width: 30px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+}
+
+hr.highlight{
+    height: 14px;
+    color: #2E3192;
+    background: #2E3192;
+    font-size: 0;
+    border: 0;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+
+.talk{
+  display: inline-block;
+  height: auto;
+  padding: 10px 80px;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 4px solid #2E3192;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #2E3192;
+}
+
+.talk:hover,.talk:focus{
+  color: #FFF;
+  background-color: #2E3192;
+  border-color: #2E3192;
+}
+
+.credits{
+	font-size: 9pt;
+	color: #999;
+	text-align: center;
+	display: block;
 }
