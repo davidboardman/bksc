@@ -1,18 +1,65 @@
+/* ********* HTML ********* */
+
 html, body{
 	height: 100%;
 }
 
+
+/* ********* LAYOUT ********* */
+
+
+.container{
+	text-align:center;
+}
+
+
+.breaker{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  height: 500px;
+  margin: 0; padding: 0;
+}
+
+
+@media only screen and (min-device-width: 120px) and (max-device-width: 736px) { 
+  .breaker{
+    background-attachment: scroll;
+  }
+}
+
+.events{
+  background-image:url('../img/bksc-header-4.jpg');
+}
+
+.joinus{
+  background-image:url('../img/bksc-header-2.jpg'); 
+}
+
+.poster{
+  background-image:url('../img/bksc-header-3.jpg');  
+}
+
+
+
+/* ********* HEADER ********* */
+
 header{
-	background-image: url('../img/bksc-header-1.jpg');
+  background-image: url('../img/bksc-header-1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 100%;
-	margin: 0; padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  max-height: 100%;
 }
 
 @media only screen and (min-device-width: 120px) and (max-device-width: 736px) { 
@@ -21,70 +68,27 @@ header{
   }
 }
 
-
-.container{
-	text-align:center;
+.top{
+  display:flex;justify-content:flex-end;align-items:center;
+  height: 100%;
+  max-height: 100%;
+  text-align: right;
+  vertical-align: middle;
 }
-
 
 .logo{
-  width: auto;
-  height: auto;
-  max-width:100%;
+  max-width:300px;
   max-height:100%;
-  vertical-align: middle;
-  margin: 50% 0 0 0;
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-    .logo{
-      max-width:30%;
-      max-height:30%;
-      vertical-align: middle;
-      margin: 0;
-    }
-
-}
-
-.fluid{
-	display:inline-block;
-	width: auto;
-	height: auto;
-	max-width: 100%;
-}
-
-.breaker{
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;	
-  -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-  max-width: 100%;
-	height: 500px;
-	margin: 0; padding: 0;
-}
-
-@media only screen and (min-device-width: 120px) and (max-device-width: 736px) { 
-  .breaker{
-    background-attachment: scroll;
-  }
 }
 
 a.arrow-down{
-	display: block;
-	position: absolute;
-	width: 30px;
-	margin: auto;
-	left: 0;
-	right: 0;
-	bottom: 20px;
+  display: block;
+  position: absolute;
+  width: 30px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
   animation: MoveUpDown 1s linear infinite;
 }
 
@@ -99,6 +103,25 @@ a.arrow-down{
     bottom: 15px;
   }
 }
+
+
+/* ********* IMGS ********* */
+
+.fluid{
+	display:inline-block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+/* ********* TESTIMONIALS ********* */
+
+
+.slick-prev:before, .slick-next:before{
+    color: #2E3192;
+}
+
+/* ********* MISC ********* */
 
 
 hr.highlight{
@@ -175,12 +198,12 @@ hr.highlight{
 }
 
 
-.slick-prev:before, .slick-next:before{
-    color: #2E3192;
-}
-
-
 .tilde{
   font-size: 24pt;
   font-weight: 700;
+}
+
+
+.uc{
+  text-transform: uppercase; 
 }
