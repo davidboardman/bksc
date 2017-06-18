@@ -178,3 +178,9 @@ hr.highlight{
 .slick-prev:before, .slick-next:before{
     color: #2E3192;
 }
+
+
+.tilde{
+  font-size: 24pt;
+  font-weight: 700;
+}
