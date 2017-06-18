@@ -16,17 +16,12 @@ header{
 	margin: 0; padding: 0;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+@media only screen and (min-device-width: 120px) and (max-device-width: 736px) { 
   header{
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (orientation : landscape) { 
-  header{
-    background-attachment: scroll;
-  }
-}
 
 .container{
 	text-align:center;
@@ -53,17 +48,12 @@ header{
 	margin: 0; padding: 0;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+@media only screen and (min-device-width: 120px) and (max-device-width: 736px) { 
   .breaker{
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (orientation : landscape) { 
-  .breaker{
-    background-attachment: scroll;
-  }
-}
 
 .logo{
 	float: right;
@@ -136,15 +126,13 @@ hr.highlight{
 .external-links{
   display: inline-block;
   height: auto;
+  margin: 0 auto 15px auto;
   padding: 10px 30px;
   text-align: center;
-  font-size: 12pt;
-  font-weight: 600;
-  line-height: 38px;
+  font-size: 11pt;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
-  white-space: nowrap;
   background-color: transparent;
   border-radius: 2px;
   border: 1px solid #2E3192;
@@ -152,9 +140,7 @@ hr.highlight{
   box-sizing: border-box;
   color: #2E3192;
   font-weight: 300;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
+  word-wrap:break-word;
 }
 
 .external-links:hover,.external-links:focus{
