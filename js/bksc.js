@@ -8,7 +8,7 @@ $('[href^="#"]').off().on('click', function (e) {
 
 $(document).ready(function() {
     $('.single-item').slick({
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
