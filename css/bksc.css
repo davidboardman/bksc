@@ -45,6 +45,9 @@ html, body{
   background-image:url('../img/bksc-header-3.jpg');  
 }
 
+.testimonials{
+  background-image:url('../img/bksc-header-5.jpg');  
+}
 
 
 /* ********* HEADER ********* */
@@ -109,9 +112,8 @@ a.arrow-down{
 
 .fluid{
 	display:inline-block;
-	width: auto;
+	width: 100%;
 	height: auto;
-	max-width: 100%;
 }
 
 /* ********* TESTIMONIALS ********* */
@@ -168,13 +170,13 @@ hr.highlight{
   margin: 0 auto 15px auto;
   padding: 10px 20px;
   text-align: center;
-  font-size: 11pt;
+  font-weight: 500;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
   border-radius: 2px;
-  border: 1px solid #2E3192;
+  border: 2px solid #2E3192;
   cursor: pointer;
   box-sizing: border-box;
   color: #2E3192;
