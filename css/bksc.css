@@ -34,26 +34,26 @@ html, body{
 }
 
 .events{
-  background-image:url('../img/bksc-header-4.jpg');
+  background-image:url('../img/brooklynsynchroclub-header-4.jpg');
 }
 
 .joinus{
-  background-image:url('../img/bksc-header-2.jpg'); 
+  background-image:url('../img/brooklynsynchroclub-header-2.jpg'); 
 }
 
 .poster{
-  background-image:url('../img/bksc-header-3.jpg');  
+  background-image:url('../img/brooklynsynchroclub-header-3.jpg');  
 }
 
 .testimonials{
-  background-image:url('../img/bksc-header-5.jpg');  
+  background-image:url('../img/brooklynsynchroclub-header-5.jpg');  
 }
 
 
 /* ********* HEADER ********* */
 
 header{
-  background-image: url('../img/bksc-header-1.jpg');
+  background-image: url('../img/brooklynsynchroclub-header-1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
