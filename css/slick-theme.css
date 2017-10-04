@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 /* Slider */
+
+
 .slick-loading .slick-list
 {
     background: #fff url('./ajax-loader.gif') center center no-repeat;
@@ -200,4 +202,9 @@
 {
     opacity: .75;
     color: black;
+}
+
+.slick-arrow, .slick-prev{
+    color: black;
+    background-color: transparent;
 }

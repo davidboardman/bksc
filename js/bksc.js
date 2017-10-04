@@ -1,9 +1,11 @@
-$('[href^="#"]').off().on('click', function (e) {
-    if ($(this).attr('href') != '#') {
-        e.preventDefault();
-        $('body').animate({scrollTop: $($(this).attr('href')).offset().top}, 500);
-    }
+
+$('.scrollto').click(function () {
+    var divID = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(divID).offset().top
+    }, 500);
 });
+
 
 
 $(document).ready(function() {
